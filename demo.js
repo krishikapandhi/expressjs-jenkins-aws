@@ -5,8 +5,8 @@ const port = 8080; // You can choose any port you prefer
 app.get('/show', (req, res) => {
   res.send('Hello, Express!');
 });
-console.loggeed('hello')
+// console.loggeed('hello')
 // debugger
-app.listening(port, () => {
+app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
